@@ -24,13 +24,13 @@ SamuraiNotification
 3. Samurai Smartphont Servicesの管理画面で、アプリの「アクセス情報」メニューを参照しながら、サンプルソースのDefine.hを修正。
 
 12行目の「SN_SERVER_URL」に、発行されたサーバーホスト名を入力。
-#define SN_SERVER_URL @"https://アプリに割り当てられたAPIサーバのホスト名/v2/ios/devices/"
+`#define SN_SERVER_URL @"https://アプリに割り当てられたAPIサーバのホスト名/v2/ios/devices/"`
 
 15行目の「SN_ACCESS_TOKEN」に、sandbox環境用のアクセストークンを入力。
-#define SN_ACCESS_TOKEN @"<SANDBOX環境token>"
+`#define SN_ACCESS_TOKEN @"<SANDBOX環境token>"`
 
 17行目の「SN_ACCESS_TOKEN」に、live環境用のアクセストークンを入力。
-#define SN_ACCESS_TOKEN @"<LIVE環境token>"
+`#define SN_ACCESS_TOKEN @"<LIVE環境token>"`
 
 4. アプリを実行
 アプリが起動するとAPNS用のデバイストークンがAppleから取得され、サーバに送信されます。
