@@ -160,7 +160,7 @@
 
     if (!self.mid) {
         // メッセージ受信後であれば、メッセージIDも送信
-        body = [NSString stringWithFormat:@"%@&mid=%@", body, [self.mid integerValue]];
+        body = [NSString stringWithFormat:@"%@&mid=%@", body, self.mid];
     }
     
     NSURL* url = [NSURL URLWithString:[NSString stringWithFormat:@"%@%@", 
