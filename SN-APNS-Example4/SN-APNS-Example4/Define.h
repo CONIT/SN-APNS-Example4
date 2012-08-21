@@ -9,7 +9,7 @@
 #define SN_APNS_Example4_Define_h
 
 // SN_SERVER_URLとSN_ACCESS_TOKENは、SamuraiNotification登録後に発行されますので適宜書き換えてください
-#define SN_SERVER_URL @"https://アプリに割り当てられたAPIサーバのホスト名/v2/ios/devices/"
+#define SN_SERVER_URL @"https://アプリに割り当てられたAPIサーバのホスト名/v2/ios/"
 #define SN_DEVICE_REGIST_URL @"devices/"
 #define SN_MESSAGE_HISTORY_URL @"messages/"
 
